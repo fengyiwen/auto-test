@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="3" timestamp="1468984154872" analysisTimestamp="1468984154437" release="">
+  <Project projectName="fyw">
+    <Jar>C:\Users\yiwen\workspace\fyw\bin\fyw\Main.class</Jar>
+    <AuxClasspathEntry>C:\Users\yiwen\workspace\fyw\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_91\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yiwen\workspace\fyw\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="NP_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="14" abbrev="NP" category="STYLE" first="3">
+    <Class classname="fyw.Main">
+      <SourceLine classname="fyw.Main" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    </Class>
+    <Method classname="fyw.Main" name="a" signature="()V" isStatic="false">
+      <SourceLine classname="fyw.Main" start="7" end="10" startBytecode="0" endBytecode="79" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    </Method>
+    <Field classname="fyw.Main" name="test" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="fyw.Main" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    </Field>
+    <SourceLine classname="fyw.Main" start="7" end="7" startBytecode="6" endBytecode="6" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    <SourceLine classname="fyw.Main" start="7" end="7" startBytecode="6" endBytecode="6" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UwF" category="STYLE" first="3">
+    <Class classname="fyw.Main">
+      <SourceLine classname="fyw.Main" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    </Class>
+    <Field classname="fyw.Main" name="test" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="fyw.Main" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+    </Field>
+    <SourceLine classname="fyw.Main" start="7" end="7" startBytecode="1" endBytecode="1" sourcefile="Main.java" sourcepath="fyw/Main.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 20 Jul 2016 11:09:10 +0800" total_classes="1" referenced_classes="12" total_bugs="2" total_size="10" num_packages="1" java_version="1.8.0_91" vm_version="25.91-b15" cpu_seconds="1.38" clock_seconds="0.44" peak_mbytes="678.84" alloc_mbytes="910.50" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="fyw" total_bugs="2" total_types="1" total_size="10" priority_2="2">
+      <ClassStats class="fyw.Main" sourceFile="Main.java" interface="false" size="10" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="112" invocations="328" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="6224" standardDeviationMircosecondsPerInvocation="667"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="105" invocations="2" avgMicrosecondsPerInvocation="52790" maxMicrosecondsPerInvocation="82899" standardDeviationMircosecondsPerInvocation="30108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="29" invocations="328" avgMicrosecondsPerInvocation="89" maxMicrosecondsPerInvocation="1079" standardDeviationMircosecondsPerInvocation="65"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="12" avgMicrosecondsPerInvocation="2181" maxMicrosecondsPerInvocation="12153" standardDeviationMircosecondsPerInvocation="3600"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="12" avgMicrosecondsPerInvocation="1659" maxMicrosecondsPerInvocation="6466" standardDeviationMircosecondsPerInvocation="1854"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="61" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="2730" standardDeviationMircosecondsPerInvocation="375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="13" invocations="296" avgMicrosecondsPerInvocation="47" maxMicrosecondsPerInvocation="1300" standardDeviationMircosecondsPerInvocation="97"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1468984111601" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1468984111601" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1468984135306" release="" codeSize="5" numClasses="1"/>
+  </History>
+</BugCollection>
