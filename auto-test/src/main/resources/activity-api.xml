@@ -1,0 +1,23 @@
+<api>
+	<request><!-- 请求信息 -->
+		<url>http://10.0.3.240:7064/v30/active/layer/list</url><!-- 请求URL -->
+		<method>POST</method><!-- 请求方式GET、POST -->
+		<dataType>json</dataType><!-- 请求数据类型xml、text、json -->
+		<isGzip>false</isGzip><!-- 是否gzip true、false-->
+		<isSecret>false</isSecret><!-- 是否加密 true、false-->
+		<requestParams><!-- 请求参数列表 -->
+			<param name="requestId">123456</param><!-- 请求参数 -->
+			<param name="cityCode">310100</param>
+		</requestParams>
+	</request>
+	<response><!-- 响应信息 -->
+		<resCode></resCode> <!-- 返回码 -->
+		<resMsg></resMsg><!-- 返回消息文本 -->
+		<data><!-- 返回数据 -->
+			<assertType></assertType><!--返回预期数据类型java.lang.String、java.util.Collection、java.util.Map -->
+			<assertDatas><!-- 返回预期数据列表 -->
+				<param name=""></param>
+			</assertDatas>
+		</data>
+	</response>
+</api>

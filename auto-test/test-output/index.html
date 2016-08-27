@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Auto_API_Automation_Test">
+              <span class="suite-name border-passed">Auto API Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Auto_API_Automation_Test">
+                    <span>C:\Feng\Project\auto-test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Auto_API_Automation_Test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Auto_API_Automation_Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Auto_API_Automation_Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Auto_API_Automation_Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Auto_API_Automation_Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Auto_API_Automation_Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Auto_API_Automation_Test" class="hide-methods passed suite-Auto_API_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-Auto_API_Automation_Test -->
+                      <a href="#" panel-name="suite-Auto_API_Automation_Test" class="show-methods passed suite-Auto_API_Automation_Test"> (show)</a> <!-- show-methods passed suite-Auto_API_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Auto_API_Automation_Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithBaseInfo_Success">testMemberInfoWithBaseInfo_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithEmptyToken_Failure">testMemberInfoWithEmptyToken_Failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithFakeToken_Failure">testMemberInfoWithFakeToken_Failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithList_Success">testMemberInfoWithList_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithOwnerInfo_Success">testMemberInfoWithOwnerInfo_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithRentInfo_Success">testMemberInfoWithRentInfo_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v31.MemberInfoTest" hash-for-method="testMemberInfoWithTokenNull_Failure">testMemberInfoWithTokenNull_Failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v33.TransDetailOwnerTest" hash-for-method="testOwnerAlreadySeeIllegalDepositRule_Success">testOwnerAlreadySeeIllegalDepositRule_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v33.TransDetailOwnerTest" hash-for-method="testOwnerNotSeeIllegalDepositRule_Success">testOwnerNotSeeIllegalDepositRule_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v33.TransDetailRenterTest" hash-for-method="testRentAlreadySeeIllegalDepositRule_Success">testRentAlreadySeeIllegalDepositRule_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Auto_API_Automation_Test" title="com.auto.v33.TransDetailRenterTest" hash-for-method="testRentNotSeeIllegalDepositRule_Success">testRentNotSeeIllegalDepositRule_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Auto_API_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Auto_API_Automation_Test" class="panel Auto_API_Automation_Test">
+          <div class="suite-Auto_API_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.v31.MemberInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithBaseInfo_Success">
+                  </a> <!-- testMemberInfoWithBaseInfo_Success -->
+                  <span class="method-name">testMemberInfoWithBaseInfo_Success</span>
+                  <em>
+(入参有效，返回基本信息-baseInfo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithEmptyToken_Failure">
+                  </a> <!-- testMemberInfoWithEmptyToken_Failure -->
+                  <span class="method-name">testMemberInfoWithEmptyToken_Failure</span>
+                  <em>
+(token为空字符串，出错信息检验)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithFakeToken_Failure">
+                  </a> <!-- testMemberInfoWithFakeToken_Failure -->
+                  <span class="method-name">testMemberInfoWithFakeToken_Failure</span>
+                  <em>
+(token为无效，出错信息检验)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithList_Success">
+                  </a> <!-- testMemberInfoWithList_Success -->
+                  <span class="method-name">testMemberInfoWithList_Success</span>
+                  <em>
+(一组用户入参有效，用户信息正常返回,)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithOwnerInfo_Success">
+                  </a> <!-- testMemberInfoWithOwnerInfo_Success -->
+                  <span class="method-name">testMemberInfoWithOwnerInfo_Success</span>
+                  <em>
+(入参有效，返回车主信息-ownerInfo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithRentInfo_Success">
+                  </a> <!-- testMemberInfoWithRentInfo_Success -->
+                  <span class="method-name">testMemberInfoWithRentInfo_Success</span>
+                  <em>
+(入参有效，返回租客信息-rentInfo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberInfoWithTokenNull_Failure">
+                  </a> <!-- testMemberInfoWithTokenNull_Failure -->
+                  <span class="method-name">testMemberInfoWithTokenNull_Failure</span>
+                  <em>
+(token为NULL，出错信息检验)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Auto_API_Automation_Test-class-passed -->
+          <div class="suite-Auto_API_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.v33.TransDetailOwnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOwnerAlreadySeeIllegalDepositRule_Success">
+                  </a> <!-- testOwnerAlreadySeeIllegalDepositRule_Success -->
+                  <span class="method-name">testOwnerAlreadySeeIllegalDepositRule_Success</span>
+                  <em>
+(车主看过违章押金信息，违章押金标示显示新增(illegalDepositRuleIsNew=0) )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOwnerNotSeeIllegalDepositRule_Success">
+                  </a> <!-- testOwnerNotSeeIllegalDepositRule_Success -->
+                  <span class="method-name">testOwnerNotSeeIllegalDepositRule_Success</span>
+                  <em>
+(车主还没看过违章押金信息,违章押金标示显示新增(illegalDepositRuleIsNew=1))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Auto_API_Automation_Test-class-passed -->
+          <div class="suite-Auto_API_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.v33.TransDetailRenterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRentAlreadySeeIllegalDepositRule_Success">
+                  </a> <!-- testRentAlreadySeeIllegalDepositRule_Success -->
+                  <span class="method-name">testRentAlreadySeeIllegalDepositRule_Success</span>
+                  <em>
+(租客看过违章押金信息，违章押金标示显示新增(illegalDepositRuleIsNew=0) )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRentNotSeeIllegalDepositRule_Success">
+                  </a> <!-- testRentNotSeeIllegalDepositRule_Success -->
+                  <span class="method-name">testRentNotSeeIllegalDepositRule_Success</span>
+                  <em>
+(租客还没看过违章押金信息,违章押金标示显示新增(illegalDepositRuleIsNew=1))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Auto_API_Automation_Test-class-passed -->
+        </div> <!-- panel Auto_API_Automation_Test -->
+        <div panel-name="test-xml-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Feng\Project\auto-test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Auto API Automation Test&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;3.4 API Automation Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.auto.v31.MemberInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.auto.v33.TransDetailRenterTest&quot;/&gt;
+      &lt;class name=&quot;com.auto.v33.TransDetailOwnerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 3.4 API Automation Test --&gt;
+&lt;/suite&gt; &lt;!-- Auto API Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Auto API Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">3.4 API Automation Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Auto API Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Auto API Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Auto_API_Automation_Test');
+function tableData_Auto_API_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMemberInfoWithBaseInfo_Success')
+data.setCell(0, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(0, 3, 674);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRentAlreadySeeIllegalDepositRule_Success')
+data.setCell(1, 2, 'com.auto.v33.TransDetailRenterTest')
+data.setCell(1, 3, 272);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testOwnerAlreadySeeIllegalDepositRule_Success')
+data.setCell(2, 2, 'com.auto.v33.TransDetailOwnerTest')
+data.setCell(2, 3, 238);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testOwnerNotSeeIllegalDepositRule_Success')
+data.setCell(3, 2, 'com.auto.v33.TransDetailOwnerTest')
+data.setCell(3, 3, 196);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRentNotSeeIllegalDepositRule_Success')
+data.setCell(4, 2, 'com.auto.v33.TransDetailRenterTest')
+data.setCell(4, 3, 192);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMemberInfoWithOwnerInfo_Success')
+data.setCell(5, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(5, 3, 171);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMemberInfoWithRentInfo_Success')
+data.setCell(6, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(6, 3, 102);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMemberInfoWithTokenNull_Failure')
+data.setCell(7, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(7, 3, 68);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMemberInfoWithEmptyToken_Failure')
+data.setCell(8, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(8, 3, 32);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMemberInfoWithFakeToken_Failure')
+data.setCell(9, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(9, 3, 19);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMemberInfoWithList_Success')
+data.setCell(10, 2, 'com.auto.v31.MemberInfoTest')
+data.setCell(10, 3, 1);
+window.suiteTableData['Auto_API_Automation_Test']= { tableData: data, tableDiv: 'times-div-Auto_API_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Auto_API_Automation_Test">
+              </div> <!-- times-div-Auto_API_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Auto API Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Auto_API_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.v31.MemberInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithBaseInfo_Success</span>
+                <span class="method-start">770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithEmptyToken_Failure</span>
+                <span class="method-start">1447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithFakeToken_Failure</span>
+                <span class="method-start">1481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithList_Success</span>
+                <span class="method-start">1502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithOwnerInfo_Success</span>
+                <span class="method-start">1506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithRentInfo_Success</span>
+                <span class="method-start">1679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMemberInfoWithTokenNull_Failure</span>
+                <span class="method-start">1782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.v33.TransDetailRenterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1852 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRentAlreadySeeIllegalDepositRule_Success</span>
+                <span class="method-start">1874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRentNotSeeIllegalDepositRule_Success</span>
+                <span class="method-start">2150 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.v33.TransDetailOwnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOwnerAlreadySeeIllegalDepositRule_Success</span>
+                <span class="method-start">2361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOwnerNotSeeIllegalDepositRule_Success</span>
+                <span class="method-start">2600 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

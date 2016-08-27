@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace" monitorInterval="30">
+
+      
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} [%t] %-5level %class{36}#%M [line:%L] - %msg%xEx%n" />
+		</Console>
+
+	</Appenders>
+	
+	<Loggers>
+
+		
+		<Root level="trace">
+			<AppenderRef ref="console" level="trace"/>
+		</Root>
+		
+	</Loggers>
+</Configuration>

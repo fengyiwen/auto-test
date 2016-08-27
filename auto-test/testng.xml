@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Auto API Automation Test" parallel="none">
+  <test name="3.4 API Automation Test">
+    <classes>
+     
+      <class name="com.auto.v31.MemberInfoTest">  
+      </class>
+      
+       <class name="com.auto.v33.TransDetailRenterTest">  
+      </class>
+      
+        <class name="com.auto.v33.TransDetailOwnerTest">  
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

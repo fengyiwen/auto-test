@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Auto API Automation Test" duration-ms="2807" started-at="2016-08-26T09:25:40Z" finished-at="2016-08-26T09:25:43Z">
+    <groups>
+    </groups>
+    <test name="3.4 API Automation Test" duration-ms="2807" started-at="2016-08-26T09:25:40Z" finished-at="2016-08-26T09:25:43Z">
+      <class name="com.auto.v33.TransDetailRenterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.v33.TransDetailRenterTest@4e718207]" name="setup" is-config="true" duration-ms="21" started-at="2016-08-26T17:25:42Z" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRentAlreadySeeIllegalDepositRule_Success()[pri:0, instance:com.auto.v33.TransDetailRenterTest@4e718207]" name="testRentAlreadySeeIllegalDepositRule_Success" duration-ms="272" started-at="2016-08-26T17:25:42Z" description="租客看过违章押金信息，违章押金标示显示新增(illegalDepositRuleIsNew=0) " finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRentAlreadySeeIllegalDepositRule_Success -->
+        <test-method status="PASS" signature="testRentNotSeeIllegalDepositRule_Success()[pri:0, instance:com.auto.v33.TransDetailRenterTest@4e718207]" name="testRentNotSeeIllegalDepositRule_Success" duration-ms="192" started-at="2016-08-26T17:25:42Z" description="租客还没看过违章押金信息,违章押金标示显示新增(illegalDepositRuleIsNew=1)" finished-at="2016-08-26T17:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRentNotSeeIllegalDepositRule_Success -->
+      </class> <!-- com.auto.v33.TransDetailRenterTest -->
+      <class name="com.auto.v31.MemberInfoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="setup" is-config="true" duration-ms="766" started-at="2016-08-26T17:25:40Z" finished-at="2016-08-26T17:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMemberInfoWithBaseInfo_Success()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithBaseInfo_Success" duration-ms="674" started-at="2016-08-26T17:25:41Z" description="入参有效，返回基本信息-baseInfo" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithBaseInfo_Success -->
+        <test-method status="PASS" signature="testMemberInfoWithEmptyToken_Failure()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithEmptyToken_Failure" duration-ms="32" started-at="2016-08-26T17:25:42Z" description="token为空字符串，出错信息检验" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithEmptyToken_Failure -->
+        <test-method status="PASS" signature="testMemberInfoWithFakeToken_Failure()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithFakeToken_Failure" duration-ms="19" started-at="2016-08-26T17:25:42Z" description="token为无效，出错信息检验" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithFakeToken_Failure -->
+        <test-method status="PASS" signature="testMemberInfoWithList_Success()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithList_Success" duration-ms="1" started-at="2016-08-26T17:25:42Z" description="一组用户入参有效，用户信息正常返回," finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithList_Success -->
+        <test-method status="PASS" signature="testMemberInfoWithOwnerInfo_Success()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithOwnerInfo_Success" duration-ms="171" started-at="2016-08-26T17:25:42Z" description="入参有效，返回车主信息-ownerInfo" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithOwnerInfo_Success -->
+        <test-method status="PASS" signature="testMemberInfoWithRentInfo_Success()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithRentInfo_Success" duration-ms="102" started-at="2016-08-26T17:25:42Z" description="入参有效，返回租客信息-rentInfo" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithRentInfo_Success -->
+        <test-method status="PASS" signature="testMemberInfoWithTokenNull_Failure()[pri:0, instance:com.auto.v31.MemberInfoTest@32eebfca]" name="testMemberInfoWithTokenNull_Failure" duration-ms="68" started-at="2016-08-26T17:25:42Z" description="token为NULL，出错信息检验" finished-at="2016-08-26T17:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberInfoWithTokenNull_Failure -->
+      </class> <!-- com.auto.v31.MemberInfoTest -->
+      <class name="com.auto.v33.TransDetailOwnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.v33.TransDetailOwnerTest@1d371b2d]" name="setup" is-config="true" duration-ms="17" started-at="2016-08-26T17:25:43Z" finished-at="2016-08-26T17:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOwnerAlreadySeeIllegalDepositRule_Success()[pri:0, instance:com.auto.v33.TransDetailOwnerTest@1d371b2d]" name="testOwnerAlreadySeeIllegalDepositRule_Success" duration-ms="238" started-at="2016-08-26T17:25:43Z" description="车主看过违章押金信息，违章押金标示显示新增(illegalDepositRuleIsNew=0) " finished-at="2016-08-26T17:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOwnerAlreadySeeIllegalDepositRule_Success -->
+        <test-method status="PASS" signature="testOwnerNotSeeIllegalDepositRule_Success()[pri:0, instance:com.auto.v33.TransDetailOwnerTest@1d371b2d]" name="testOwnerNotSeeIllegalDepositRule_Success" duration-ms="196" started-at="2016-08-26T17:25:43Z" description="车主还没看过违章押金信息,违章押金标示显示新增(illegalDepositRuleIsNew=1)" finished-at="2016-08-26T17:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOwnerNotSeeIllegalDepositRule_Success -->
+      </class> <!-- com.auto.v33.TransDetailOwnerTest -->
+    </test> <!-- 3.4 API Automation Test -->
+  </suite> <!-- Auto API Automation Test -->
+</testng-results>
